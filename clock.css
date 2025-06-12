@@ -1,1 +1,60 @@
+body{
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   user-select: none;
+background-image: url(image.webp);
+}
+h2{
+ border: 2px solid brown; 
+ padding: 5px;
+ border-radius: 15px;
+ padding-left: 10px;
+ padding-right: 10px;
+ font-family: sans-serif;
+}
+h2:hover{
+  background-color: black;
+  color: white;
+}
+.clock div{
+  display: inline-block;
+  margin: 10px;
+  background-color: #f2f2f2;
+  padding: 30px;
+  letter-spacing: 3px;
+  
+}
+.clock div:hover{
+  background-color: burlywood;
+}
+.clock .text{
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+  background-color: #f2f2;
+  font-size: 50px;
+  padding-left: 17px;
+  padding-right: 17px;border-radius: 30px;
+ 
+}
+.clock .f1 {
+  border: 2px solid brown;
+  border-radius: 20px;
+}
+.clock span{
+  
+ 
+  font-size: large;
+  font-family: sans-serif;
 
+}
+.clock .am{
+  padding: 10px;
+  border: 2px  solid brown;
+  border-radius: 90px;
+  background-color: #f2f2;
+
+  
+}
